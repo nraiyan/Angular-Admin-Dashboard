@@ -1,3 +1,4 @@
+import { MatDividerModule } from '@angular/material/divider';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DefaultComponent } from '../../layouts/default/default.component';
@@ -21,7 +22,8 @@ import { MatSidenavModule } from "@angular/material/sidenav";
     CommonModule,
     RouterModule,
     SharedModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatDividerModule
   ]
 })
 export class DefaultModule { }
